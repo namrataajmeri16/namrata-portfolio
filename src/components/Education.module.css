@@ -1,0 +1,63 @@
+.list {
+  display: grid;
+  gap: 24px;
+  margin-top: 32px;
+}
+
+.card {
+  background: linear-gradient(
+    180deg,
+    #ffffff,
+    var(--surface-1)
+  );
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-lg);
+  padding: 24px;
+  box-shadow: var(--shadow-sm);
+  transition:
+    transform 180ms ease,
+    box-shadow 180ms ease;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-md);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.institution {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.degree {
+  margin-top: 4px;
+  font-size: 14px;
+  color: var(--text-secondary);
+}
+
+.meta {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 13px;
+  color: var(--text-muted);
+  text-align: right;
+}
+
+.highlights {
+  margin-top: 16px;
+  padding-left: 18px;
+}
+
+.highlights li {
+  margin-bottom: 8px;
+  color: var(--text-secondary);
+}
