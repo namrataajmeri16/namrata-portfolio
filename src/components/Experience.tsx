@@ -16,11 +16,14 @@ const experience: ExperienceItem[] = [
     location: "Canada",
     period: "Dec 2022 – Present",
     description:
-      "Worked on production-grade systems serving real users, with a focus on reliability, performance, and maintainable UI.",
+      "Health & Dental Insurance Platform serving internal operations with high-volume claim processing in a regulated financial environment.",
     highlights: [
-      "Built and maintained backend APIs used by internal and customer-facing applications",
-      "Developed reusable React components with accessibility and scalability in mind",
-      "Collaborated closely with product and QA teams in an Agile environment",
+      "Focussed on designing systems that balance automation with safety, especially when introducing AI into regulated workflows",
+      "Build scalable full stack application in React, Javascript, Nodejs, Python, Java within a high volume distributed financial ecosystem",
+      "Owned end-to-end delivery of features across React micro-frontends, Node.js APIs, and backend services, ensuring accessibility (WCAG 2.0) and performance for 10,000+ active users",
+      "Designed and shipped extensible Node.js APIs, streamlining downstream data processing and enabling faster feature delivery across teams",
+      "Built AI-powered MVP enabling faster/accurate claim processing, leveraged Agentic AI for automated claim processing via prompt-based information extraction, prepared solution flow.",
+      "Acted as release owner and daytime support, mentoring junior engineers, reviewing PRs, and improving system observability to reduce production incidents.",
     ],
   },
   {
@@ -31,9 +34,11 @@ const experience: ExperienceItem[] = [
     description:
       "Worked on production-grade systems serving real users, with a focus on reliability, performance, and maintainable UI.",
     highlights: [
-      "Built and maintained backend APIs used by internal and customer-facing applications",
-      "Developed reusable React components with accessibility and scalability in mind",
-      "Collaborated closely with product and QA teams in an Agile environment",
+      "Built and enhanced application using React, Javascript, Typescript, HTML, CSS",
+      "Took ownership of ambiguous requirements by collaborating with product owners to shape solutions early.",
+      "Converted spike tickets into actionable tasks, and delivered iteratively",
+      "Collaborated closely with product, design and QA teams to deliver feaured end-to-end",
+      "Strengthened test coverage using React Testing Library and Jest, improving confidence in releases."
     ],
   },
   {
@@ -44,9 +49,9 @@ const experience: ExperienceItem[] = [
     description:
       "Worked on production-grade systems serving real users, with a focus on reliability, performance, and maintainable UI.",
     highlights: [
-      "Built and maintained backend APIs used by internal and customer-facing applications",
-      "Developed reusable React components with accessibility and scalability in mind",
-      "Collaborated closely with product and QA teams in an Agile environment",
+      "Designed and developed public facing React components for geotab.com using React, typescript, material-ui, and webpack.",
+      "Improved pageload performance by nearly 50% using lazy loading, preloading and code splitting strategies.",
+      "Contributed to both frontend and backend fixes, gaining cross-stack exposure early in my career.",
     ],
   }
 ];

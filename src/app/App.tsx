@@ -8,8 +8,6 @@ import Experience from "../components/Experience";
 import Education from "../components/Education";
 import { GitHubIcon, LinkedInIcon, MailIcon, LocationIcon } from "../components/icons";
 import styles from "./App.module.css";
-import Projects from "../components/Projects";
-import ProjectCarousel from "../components/ProjectCarousel";
 import ProjectCard from "../components/ProjectCard";
 
 export default function App() {
@@ -35,7 +33,7 @@ export default function App() {
               <p className="heroSubtitle">{person.headline}</p>
 
               <p className="heroSummary">{person.summary}</p>
-
+{/*}
               <div className="heroCtas">
                 <Button href="#projects" variant="primary">
                   View Projects
@@ -43,7 +41,7 @@ export default function App() {
                 <Button href="#contact" variant="secondary">
                   Contact
                 </Button>
-              </div>
+              </div> */}
 
               <div className="heroMeta">
                 <span className="metaItem">{person.primaryRole}</span>
@@ -61,15 +59,10 @@ export default function App() {
           </div>
         </Section>
 
-        <Section id="experience" title="Work experience">
-          <a href="#experience"><Experience /></a>
-        </Section>
-
         {/* SKILLS */}
         <Section
           id="skills"
           title="Skills"
-          subtitle="A practical toolkit for building and shipping production systems."
         >
           <div className="grid2">
             {skills.groups.map((g) => (
@@ -105,7 +98,11 @@ export default function App() {
             </ProjectCarousel>*/}
           </div>
         </Section>
-
+        
+        <Section id="experience" title="Work experience">
+          <a href="#experience"><Experience /></a>
+        </Section>
+        
         <Section id="education" title="Education">
           <Education />
         </Section>
@@ -114,7 +111,7 @@ export default function App() {
         <Section
           id="contact"
           title="Contact"
-          subtitle="If you’re hiring for full-stack roles or want to talk systems + UI craftsmanship, reach out."
+          subtitle="If you’re hiring for full-stack roles or want to talk systems + UI craftsmanship, please reach out."
         >
           <div className="card contactCard">
             <div className="contactLeft">

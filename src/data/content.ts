@@ -14,9 +14,9 @@ export const content = {
   person: {
     name: "Namrata Ajmeri",
     locationLine: "Toronto, ON • Full-Stack Engineer",
-    headline: "Full-stack software engineer focused on reliable backend systems and clean, reusable UI.",
+    headline: "Full-stack software engineer focused on reliable backend systems, reusable UI and AI enhanced user experience",
     summary:
-      "I build production-grade web applications with strong engineering fundamentals—performance, observability, maintainability—and I’m proficient in UI component craft using React + JavaScript/TypeScript.",
+      "I build production-grade web applications with strong engineering fundamentals—performance, observability, maintainability—and I’m proficient in UI component craft using React + JavaScript/TypeScript. In addition to that I'm actiely integrating AI-powered features into modern web application ",
     primaryRole: "Full-Stack • Backend-leaning",
     techFocus: "React + JavaScript/TypeScript • Node/Java/Python • Cloud  • Agentic AI",
   },
@@ -31,15 +31,23 @@ export const content = {
     groups: [
       {
         title: "Frontend",
-        items: ["React", "TypeScript", "Component APIs", "Accessibility", "Performance basics"],
+        items: ["React", "TypeScript", "Javascript", "HTML" , "CSS", "Component APIs", "WCAG 2.1/AODA Accessibility", "Performance"],
       },
       {
         title: "Backend",
-        items: ["Node.js", "Java", "C#", "REST APIs", "SQL", "Caching", "Observability"],
+        items: ["Node.js", "Java", "Python", "Ruby on Rails", "REST APIs", "SQL", "Caching", "Observability"],
       },
       {
         title: "DevOps / Delivery",
-        items: ["Docker", "Kubernetes", "CI/CD", "Azure", "Monitoring/Logging"],
+        items: ["Docker", "Kubernetes", "CI/CD", "Azure", "Monitoring/Logging", "AKS", "Azure functions"],
+      },
+      {
+        title: "AI / ML",
+        items: ["Github copilot", "Agentic AI workflows", "MCP", "RAG", "FastAPI", "Langchain", "Azure OpenAI", "LLM"],
+      },
+      {
+        title: "Architecture and systems",
+        items: ["Microservice architecture", "event-driven architecture", "Domain driven design"],
       },
       {
         title: "Engineering Practices",
@@ -50,6 +58,20 @@ export const content = {
 
   projects: {
     items: [
+      {
+        title: "Activity feed dashboard",
+        description:
+          "A production-style app showcasing secure APIs, structured logging, and a clean UI for status-driven workflows.",
+        highlights: [
+          "Built a scalable activity feed dashboard enabling efficient browsing of large event streams",
+          "Implemented multi-layer caching with TanStack query (client) and redis (server) to reduce database load and improve feed response times",
+          "Designed scalability hooks using BullMQ and Redis to support asynchronous event processing, fan-out and future horizintal scaling",
+        ],
+        tags: ["React", "Node.js", "SQL", "React", "Observability"],
+        links: {
+          repo: "https://github.com/your-username/claims-app",
+        },
+      },
       {
         title: "Reusable Modal System (React + TS)",
         description:
@@ -63,20 +85,6 @@ export const content = {
         links: {
           repo: "https://github.com/your-username/reusable-modal-system",
           live: "https://your-live-demo-link.com",
-        },
-      },
-      {
-        title: "Claims / Benefits Web App (Full-Stack)",
-        description:
-          "A production-style app showcasing secure APIs, structured logging, and a clean UI for status-driven workflows.",
-        highlights: [
-          "Built REST endpoints with clear domain boundaries and predictable error handling.",
-          "Modeled relational data and optimized key queries for common user flows.",
-          "Instrumented core flows with logs/metrics patterns to simplify production debugging.",
-        ],
-        tags: ["Node.js", "SQL", "React", "Observability"],
-        links: {
-          repo: "https://github.com/your-username/claims-app",
         },
       },
       {

@@ -1,5 +1,5 @@
 import type { Project } from "../data/content";
-import Button from "./Button";
+//import Button from "./Button";
 
 export default function ProjectCard({ project }: { project: Project }) {
   return (
@@ -23,7 +23,7 @@ export default function ProjectCard({ project }: { project: Project }) {
         ))}
       </div>
 
-      <div className="projectLinks">
+      {/*<div className="projectLinks">
         {project.links.live ? (
           <Button href={project.links.live} variant="primary" newTab>
             Live
@@ -38,8 +38,8 @@ export default function ProjectCard({ project }: { project: Project }) {
           <Button href={project.links.caseStudy} variant="ghost" newTab>
             Case Study
           </Button>
-        ) : null}
-      </div>
+        ) : null} 
+      </div>*/}
     </article>
   );
 }
